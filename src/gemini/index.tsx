@@ -22,6 +22,7 @@ const safetySetting = [
     threshold: HarmBlockThreshold.BLOCK_LOW_AND_ABOVE,
   },
 ];
+console.log("safetySetting", safetySetting);
 
 const generationConfig = {
   temperature: 1,
